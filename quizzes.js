@@ -18,7 +18,7 @@ const QUIZZES = [
         id: "harry-potter",
         titulo: "Qual personagem de Harry Potter você é?",
         franquia: "🧙‍♂️ Harry Potter",
-        cartaz: "images/harrypotter.jpg",
+        cartaz: "harrypotter.jpg",
         nota: 9.1,
         personagens: [
             {
@@ -98,7 +98,7 @@ const QUIZZES = [
         id: "marvel",
         titulo: "Qual Vingador você é?",
         franquia: "🦸 Marvel",
-        cartaz: "images/marvel.jpg",
+        cartaz: "marvel.jpg",
         nota: 8.5,
         personagens: [
             {
@@ -188,7 +188,7 @@ const QUIZZES = [
         id: "homem-aranha",
         titulo: "Qual personagem do Homem-Aranha você é?",
         franquia: "🕷️ Homem-Aranha",
-        cartaz: "images/homemaranha.jpg",
+        cartaz: "homemaranha.jpg",
         nota: 8.0,
         personagens: [
             {
@@ -268,7 +268,7 @@ const QUIZZES = [
         id: "jogos-vorazes",
         titulo: "Qual personagem dos Jogos Vorazes você é?",
         franquia: "🎯 Jogos Vorazes",
-        cartaz: "images/vorazes.jpg",
+        cartaz: "vorazes.jpg",
         nota: 7.8,
         personagens: [
             {
@@ -348,7 +348,7 @@ const QUIZZES = [
         id: "crepusculo",
         titulo: "Qual personagem de Crepúsculo você é?",
         franquia: "🧛 Crepúsculo",
-        cartaz: "images/crepusculo.jpg",
+        cartaz: "crepusculo.jpg",
         nota: 6.8,
         personagens: [
             {
@@ -418,7 +418,7 @@ const QUIZZES = [
         id: "high-school-musical",
         titulo: "Qual personagem de HSM você é?",
         franquia: "🎤 High School Musical",
-        cartaz: "images/high.jpg",
+        cartaz: "high.jpg",
         nota: 7.2,
         personagens: [
             {
@@ -498,7 +498,7 @@ const QUIZZES = [
         id: "divertida-mente",
         titulo: "Qual emoção de Divertida Mente você é?",
         franquia: "🧠 Divertida Mente",
-        cartaz: "images/insideout.jpg",
+        cartaz: "insideout.jpg",
         nota: 8.2,
         personagens: [
             {
@@ -588,7 +588,7 @@ const QUIZZES = [
         id: "game-of-thrones",
         titulo: "Qual personagem de Game of Thrones você é?",
         franquia: "🐉 Game of Thrones",
-        cartaz: "images/thrones.jpg",
+        cartaz: "thrones.jpg",
         nota: 9.2,
         personagens: [
             {
@@ -668,7 +668,7 @@ const QUIZZES = [
         id: "stranger-things",
         titulo: "Qual personagem de Stranger Things você é?",
         franquia: "🕶️ Stranger Things",
-        cartaz: "images/strangerthings.jpg",
+        cartaz: "strangerthings.jpg",
         nota: 8.7,
         personagens: [
             {
@@ -748,7 +748,7 @@ const QUIZZES = [
         id: "diabo-veste-prada",
         titulo: "Qual personagem de O Diabo Veste Prada você é?",
         franquia: "🎭 O Diabo Veste Prada",
-        cartaz: "images/prada.jpg",
+        cartaz: "prada.jpg",
         nota: 7.5,
         personagens: [
             {
@@ -818,7 +818,7 @@ const QUIZZES = [
         id: "acao",
         titulo: "Qual arquétipo de ação você é?",
         franquia: "💥 Jogos de Ação",
-        cartaz: "images/tlf.jpg",
+        cartaz: "tlf.jpg",
         nota: 7.0,
         personagens: [
             {
@@ -912,7 +912,7 @@ const QUIZZES = [
 
     franquia: "🌊 The Summer I Turned Pretty",
 
-    cartaz: "images/tsitp.jpg",
+    cartaz: "tsitp.jpg",
 
     nota: 8.9,
 
@@ -971,7 +971,7 @@ const QUIZZES = [
 
     franquia: "🩸 The Vampire Diaries",
 
-    cartaz: "images/tvd.jpg",
+    cartaz: "tvd.jpg",
 
     nota: 8.8,
 
@@ -1103,7 +1103,7 @@ const QUIZZES = [
 
     franquia: "🌞 Outer Banks",
 
-    cartaz: "images/outerbanks.jpg",
+    cartaz: "outerbanks.jpg",
 
     nota: 8.4,
 
@@ -1349,7 +1349,7 @@ const QUIZZES = [
 
     franquia: "✨ Euphoria",
 
-    cartaz: "images/euphoria.jpg",
+    cartaz: "euphoria.jpg",
 
     nota: 6.9,
 
@@ -1600,7 +1600,7 @@ const QUIZZES = [
 
     franquia: "🏀 One Tree Hill",
 
-    cartaz: "images/oth.jpg",
+    cartaz: "oth.jpg",
 
     nota: 8.9,
 
@@ -1851,7 +1851,7 @@ const QUIZZES = [
 
     franquia: "📚 You",
 
-    cartaz: "images/you.jpg",
+    cartaz: "you.jpg",
 
     nota: 8.1,
 
@@ -2064,7 +2064,7 @@ const QUIZZES = [
 
     franquia: "🍒 Riverdale",
 
-    cartaz: "images/riverdale.jpg",
+    cartaz: "riverdale.jpg",
 
     nota: 7.7,
 
