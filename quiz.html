@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz — Cineverse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="quiz-page">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar__inner">
+            <a class="navbar__logo" href="index.html">CINEVERSE</a>
+        </div>
+    </nav>
+
+    <!-- QUIZ CONTAINER -->
+    <main class="quiz-wrapper">
+
+        <!-- TELA: PERGUNTAS -->
+        <div id="tela-quiz">
+            <div class="quiz-header">
+                <p class="quiz-franquia" id="quiz-franquia"></p>
+                <h1 class="quiz-titulo" id="quiz-titulo"></h1>
+                <div class="quiz-progresso-barra">
+                    <div class="quiz-progresso-fill" id="progresso-fill"></div>
+                </div>
+                <p class="quiz-progresso-texto" id="progresso-texto"></p>
+            </div>
+
+            <div class="quiz-pergunta-box">
+                <p class="quiz-pergunta" id="pergunta-texto"></p>
+                <div class="quiz-alternativas" id="alternativas"></div>
+            </div>
+        </div>
+
+        <!-- TELA: RESULTADO -->
+        <div id="tela-resultado" class="escondido">
+            <p class="resultado-label">Você é...</p>
+            <div class="resultado-card">
+                <img id="resultado-img" src="" alt="">
+                <div class="resultado-info">
+                    <h2 id="resultado-nome"></h2>
+                    <p id="resultado-desc"></p>
+                </div>
+            </div>
+            <div class="resultado-acoes">
+                <button onclick="reiniciarQuiz()">Tentar de novo</button>
+                <a href="index.html"><button>Ver outros quizzes</button></a>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="quizzes.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>

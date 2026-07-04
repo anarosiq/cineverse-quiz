@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineverse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar__inner">
+            <a class="navbar__logo" href="#">CINEVERSE</a>
+            <div class="navbar__search">
+                <i class="fa fa-search"></i>
+                <input type="text" id="busca-input" placeholder="Pesquisar filmes, quizzes...">
+            </div>
+            <button class="btn-login" onclick="abrirModal()">Entrar</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__titulo">Descubra quem você é na ficção</h1>
+            <p class="hero__sub">Escolha um quiz e descubra seu personagem favorito.</p>
+            <button class="hero__btn" onclick="document.querySelector('.quizzes').scrollIntoView({behavior:'smooth'})">
+                Explorar quizzes
+            </button>
+        </div>
+    </section>
+
+    <!-- QUIZZES -->
+    <section class="quizzes">
+        <h2 class="quizzes__titulo">Em destaque</h2>
+        <div class="quizzes__linha" id="grid-quizzes">
+            <!-- Gerado dinamicamente pelo script.js -->
+        </div>
+    </section>
+
+    <!-- MODAL LOGIN -->
+    <div id="login-modal" class="modal" aria-modal="true" role="dialog">
+        <div class="modal__overlay" onclick="fecharModal()"></div>
+        <div class="modal__caixa">
+            <button class="modal__fechar" onclick="fecharModal()" aria-label="Fechar">
+                <i class="fa fa-times"></i>
+            </button>
+            <h2 class="modal__titulo">Entrar no Cineverse</h2>
+            <form class="modal__form" onsubmit="loginFalso(event)">
+                <input type="email" id="modal-email" placeholder="E-mail" required>
+                <input type="password" id="modal-senha" placeholder="Senha" required>
+                <button type="submit" class="btn-submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="quizzes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
