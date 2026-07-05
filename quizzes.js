@@ -18,28 +18,28 @@ const QUIZZES = [
         id: "harry-potter",
         titulo: "Qual personagem de Harry Potter você é?",
         franquia: "🧙‍♂️ Harry Potter",
-        cartaz: "harrypotter.jpg",
+        cartaz: "images/harrypotter.jpg",
         nota: 9.1,
         personagens: [
             {
                 nome: "Harry Potter",
                 descricao: "Corajoso e impulsivo, você age pelo coração e nunca abandona quem ama, mesmo diante do perigo.",
-                imagem: "harry.jpg"
+                imagem: "images/harry.jpg"
             },
             {
                 nome: "Hermione Granger",
                 descricao: "Inteligente e lógica, você resolve problemas com raciocínio e se prepara para tudo com antecedência.",
-                imagem: "hermione.jpg"
+                imagem: "images/hermione.jpg"
             },
             {
                 nome: "Ron Weasley",
                 descricao: "Engraçado e leal, você alivia a tensão com humor mas carrega inseguranças que subestimam seu valor.",
-                imagem: "ron.jpg"
+                imagem: "images/ron.jpg"
             },
             {
                 nome: "Draco Malfoy",
                 descricao: "Orgulhoso e complexo, você tem uma postura fria, mas esconde conflitos internos profundos.",
-                imagem: "draco.jpg"
+                imagem: "images/draco.jpg"
             }
         ],
         perguntas: [
@@ -98,33 +98,33 @@ const QUIZZES = [
         id: "marvel",
         titulo: "Qual Vingador você é?",
         franquia: "🦸 Marvel",
-        cartaz: "marvel.jpg",
+        cartaz: "images/marvel.jpg",
         nota: 8.5,
         personagens: [
             {
                 nome: "Tony Stark",
                 descricao: "Egocêntrico e brilhante, você resolve tudo com inteligência e um sarcasmo afiado.",
-                imagem: "tony.jpg"
+                imagem: "images/tony.jpg"
             },
             {
                 nome: "Steve Rogers",
                 descricao: "Honrado e disciplinado, você coloca o dever acima de tudo e nunca desiste do que é certo.",
-                imagem: "steve.jpg"
+                imagem: "images/steve.jpg"
             },
             {
                 nome: "Thor",
                 descricao: "Impulsivo e emocional, você age pela força e sente tudo na intensidade máxima.",
-                imagem: "thor.jpg"
+                imagem: "images/thor.jpg"
             },
             {
                 nome: "Natasha Romanoff",
                 descricao: "Fria e estratégica, você observa antes de agir e raramente mostra o que sente.",
-                imagem: "natasha.jpg"
+                imagem: "images/natasha.jpg"
             },
             {
                 nome: "Loki",
                 descricao: "Manipulador e carismático, você usa as palavras como armas e sempre tem um plano B.",
-                imagem: "loki.jpg"
+                imagem: "images/loki.jpg"
             }
         ],
         perguntas: [
@@ -188,28 +188,28 @@ const QUIZZES = [
         id: "homem-aranha",
         titulo: "Qual personagem do Homem-Aranha você é?",
         franquia: "🕷️ Homem-Aranha",
-        cartaz: "homemaranha.jpg",
+        cartaz: "images/homemaranha.jpg",
         nota: 8.0,
         personagens: [
             {
                 nome: "Peter Parker",
                 descricao: "Responsável e ansioso, você carrega o peso do mundo nos ombros e ainda assim nunca desiste.",
-                imagem: "peter.jpg"
+                imagem: "images/peter.jpg"
             },
             {
                 nome: "MJ",
                 descricao: "Irônica e independente, você tem opiniões fortes e não precisa da aprovação de ninguém.",
-                imagem: "mj.jpg"
+                imagem: "images/mj.jpg"
             },
             {
                 nome: "Gwen Stacy",
                 descricao: "Inteligente e focada, você é determinada, brilhante e sabe exatamente onde quer chegar.",
-                imagem: "gwen.jpg"
+                imagem: "images/gwen.jpg"
             },
             {
                 nome: "Harry Osborn",
                 descricao: "Instável e emocional, você sente tudo com intensidade e luta contra conflitos que vêm de dentro.",
-                imagem: "harry-o.jpg"
+                imagem: "images/harry-o.jpg"
             }
         ],
         perguntas: [
@@ -268,28 +268,28 @@ const QUIZZES = [
         id: "jogos-vorazes",
         titulo: "Qual personagem dos Jogos Vorazes você é?",
         franquia: "🎯 Jogos Vorazes",
-        cartaz: "vorazes.jpg",
+        cartaz: "images/vorazes.jpg",
         nota: 7.8,
         personagens: [
             {
                 nome: "Katniss Everdeen",
                 descricao: "Protetora e fechada, você faz de tudo por quem ama mas tem dificuldade em confiar no mundo.",
-                imagem: "katniss.jpg"
+                imagem: "images/katniss.jpg"
             },
             {
                 nome: "Peeta Mellark",
                 descricao: "Gentil e emocional, você enxerga o bem nas pessoas e usa palavras para conectar ao invés de dividir.",
-                imagem: "peeta.jpg"
+                imagem: "images/peeta.jpg"
             },
             {
                 nome: "Gale Hawthorne",
                 descricao: "Intenso e rebelde, você questiona o sistema e está disposto a tudo pela causa em que acredita.",
-                imagem: "gale.jpg"
+                imagem: "images/gale.jpg"
             },
             {
                 nome: "Effie Trinket",
                 descricao: "Exagerada e organizada, você tem um jeito único de ver o mundo e leva a sério cada detalhe.",
-                imagem: "effie.jpg"
+                imagem: "images/effie.jpg"
             }
         ],
         perguntas: [
@@ -315,7 +315,7 @@ const QUIZZES = [
                 texto: "Numa situação de crise você...",
                 alternativas: [
                     { texto: "Ajo instintivamente para sobreviver",                pontos: [3,0,0,0] },
-                    { texto: "Tento manter a calma e negociar",                     pontos: [0,3,0,0] },
+                    { texto: "Tento manter a calma e negociar",                    pontos: [0,3,0,0] },
                     { texto: "Enfrento de frente sem recuar",                      pontos: [0,0,3,0] },
                     { texto: "Sigo o plano à risca",                               pontos: [0,0,0,3] }
                 ]
@@ -348,23 +348,23 @@ const QUIZZES = [
         id: "crepusculo",
         titulo: "Qual personagem de Crepúsculo você é?",
         franquia: "🧛 Crepúsculo",
-        cartaz: "crepusculo.jpg",
+        cartaz: "images/crepusculo.jpg",
         nota: 6.8,
         personagens: [
             {
                 nome: "Bella Swan",
                 descricao: "Introvertida e emocional, você sente as coisas com profundidade e busca pertencer a algo maior.",
-                imagem: "bella.jpg"
+                imagem: "images/bella.jpg"
             },
             {
                 nome: "Edward Cullen",
                 descricao: "Controlador e intenso, você ama com obsessão e carrega o peso de séculos de autocontrole.",
-                imagem: "edward.jpg"
+                imagem: "images/edward.jpg"
             },
             {
                 nome: "Jacob Black",
                 descricao: "Direto e caloroso, você é fiel, protetor e nunca esconde o que sente.",
-                imagem: "jacob.jpg"
+                imagem: "images/jacob.jpg"
             }
         ],
         perguntas: [
@@ -418,28 +418,28 @@ const QUIZZES = [
         id: "high-school-musical",
         titulo: "Qual personagem de HSM você é?",
         franquia: "🎤 High School Musical",
-        cartaz: "high.jpg",
+        cartaz: "images/high.jpg",
         nota: 7.2,
         personagens: [
             {
                 nome: "Troy Bolton",
                 descricao: "Confuso mas popular, você equilibra expectativas alheias com o que realmente quer ser.",
-                imagem: "troy.jpg"
+                imagem: "images/troy.jpg"
             },
             {
                 nome: "Gabriella Montez",
                 descricao: "Calma e inteligente, você cresce na sombra até encontrar coragem para brilhar.",
-                imagem: "gabriella.jpg"
+                imagem: "images/gabriella.jpg"
             },
             {
                 nome: "Sharpay Evans",
                 descricao: "Ambiciosa e teatral, você não aceita segundo lugar e sabe exatamente o que quer.",
-                imagem: "sharpay.jpg"
+                imagem: "images/sharpay.jpg"
             },
             {
                 nome: "Ryan Evans",
                 descricao: "Criativo e contido, você tem talento de sobra mas prefere brilhar nos bastidores.",
-                imagem: "ryan.jpg"
+                imagem: "images/ryan.jpg"
             }
         ],
         perguntas: [
@@ -498,33 +498,33 @@ const QUIZZES = [
         id: "divertida-mente",
         titulo: "Qual emoção de Divertida Mente você é?",
         franquia: "🧠 Divertida Mente",
-        cartaz: "insideout.jpg",
+        cartaz: "images/insideout.jpg",
         nota: 8.2,
         personagens: [
             {
                 nome: "Alegria",
                 descricao: "Otimista e energética, você encontra o bom em tudo e irradia positividade por onde passa.",
-                imagem: "alegria.jpg"
+                imagem: "images/alegria.jpg"
             },
             {
                 nome: "Tristeza",
                 descricao: "Sensível e empática, você sente tudo fundo e tem um dom especial para acolher os outros.",
-                imagem: "tristeza.jpg"
+                imagem: "images/tristeza.jpg"
             },
             {
                 nome: "Raiva",
                 descricao: "Explosivo e apaixonado, você tem senso de justiça afiadíssimo e não aceita desrespeito.",
-                imagem: "raiva.jpg"
+                imagem: "images/raiva.jpg"
             },
             {
                 nome: "Medo",
                 descricao: "Ansioso e cauteloso, você antecipa tudo e raramente age sem calcular os riscos antes.",
-                imagem: "medo.jpg"
+                imagem: "images/medo.jpg"
             },
             {
                 nome: "Nojinho",
                 descricao: "Crítico e seletivo, você tem padrões altos e uma visão de mundo que poucos conseguem acompanhar.",
-                imagem: "nojinho.jpg"
+                imagem: "images/nojinho.jpg"
             }
         ],
         perguntas: [
@@ -572,7 +572,7 @@ const QUIZZES = [
                 texto: "O que você não suporta?",
                 alternativas: [
                     { texto: "Negatividade sem necessidade",                       pontos: [3,0,0,0,0] },
-                    { texto: "Indiferença com quem está sofrendo",                pontos: [0,3,0,0,0] },
+                    { texto: "Indiferença com quem está sofrendo",                 pontos: [0,3,0,0,0] },
                     { texto: "Injustiça e falta de respeito",                      pontos: [0,0,3,0,0] },
                     { texto: "Imprevistos e falta de controle",                    pontos: [0,0,0,3,0] },
                     { texto: "Mediocridade e falta de padrão",                     pontos: [0,0,0,0,3] }
@@ -588,28 +588,28 @@ const QUIZZES = [
         id: "game-of-thrones",
         titulo: "Qual personagem de Game of Thrones você é?",
         franquia: "🐉 Game of Thrones",
-        cartaz: "thrones.jpg",
+        cartaz: "images/thrones.jpg",
         nota: 9.2,
         personagens: [
             {
                 nome: "Jon Snow",
                 descricao: "Honorável e reservado, você segue o dever acima de tudo e carrega um peso que raramente divide.",
-                imagem: "jon.jpg"
+                imagem: "images/jon.jpg"
             },
             {
                 nome: "Daenerys Targaryen",
                 descricao: "Forte e idealista, você tem uma visão de mundo clara e está disposta a queimar tudo para realizá-la.",
-                imagem: "daenerys.jpg"
+                imagem: "images/daenerys.jpg"
             },
             {
                 nome: "Tyrion Lannister",
                 descricao: "Inteligente e sarcástico, você usa as palavras como arma e enxerga o que outros ignoram.",
-                imagem: "tyrion.jpg"
+                imagem: "images/tyrion.jpg"
             },
             {
                 nome: "Arya Stark",
                 descricao: "Fria e independente, você traça seu próprio caminho e não tem medo de fazer o que precisa ser feito.",
-                imagem: "arya.jpg"
+                imagem: "images/arya.jpg"
             }
         ],
         perguntas: [
@@ -668,28 +668,28 @@ const QUIZZES = [
         id: "stranger-things",
         titulo: "Qual personagem de Stranger Things você é?",
         franquia: "🕶️ Stranger Things",
-        cartaz: "strangerthings.jpg",
+        cartaz: "images/strangerthings.jpg",
         nota: 8.7,
         personagens: [
             {
                 nome: "Eleven",
                 descricao: "Silenciosa e poderosa, você guarda um universo dentro de si e age quando as palavras não bastam.",
-                imagem: "eleven.jpg"
+                imagem: "images/eleven.jpg"
             },
             {
                 nome: "Mike Wheeler",
                 descricao: "Leal e emotivo, você coloca os amigos acima de tudo e sente cada perda como se fosse sua.",
-                imagem: "mike.jpg"
+                imagem: "images/mike.jpg"
             },
             {
                 nome: "Dustin Henderson",
                 descricao: "Engraçado e inteligente, você usa o humor para conectar pessoas e resolve problemas de formas únicas.",
-                imagem: "dustin.jpg"
+                imagem: "images/dustin.jpg"
             },
             {
                 nome: "Max Mayfield",
                 descricao: "Independente e forte, você não precisa de aprovação e enfrenta traumas com coragem real.",
-                imagem: "max.jpg"
+                imagem: "images/max.jpg"
             }
         ],
         perguntas: [
@@ -748,23 +748,23 @@ const QUIZZES = [
         id: "diabo-veste-prada",
         titulo: "Qual personagem de O Diabo Veste Prada você é?",
         franquia: "🎭 O Diabo Veste Prada",
-        cartaz: "prada.jpg",
+        cartaz: "images/prada.jpg",
         nota: 7.5,
         personagens: [
             {
                 nome: "Miranda Priestly",
                 descricao: "Exigente e fria, você tem padrões impossíveis, mas por trás da dureza existe uma visão que poucos entendem.",
-                imagem: "miranda.jpg"
+                imagem: "images/miranda.jpg"
             },
             {
                 nome: "Andy Sachs",
                 descricao: "Insegura mas evolutiva, você chega sem saber quem é e sai com uma identidade que construiu sozinha.",
-                imagem: "andy.jpg"
+                imagem: "images/andy.jpg"
             },
             {
                 nome: "Emily",
                 descricao: "Ambiciosa e competitiva, você trabalha mais do que todos e não tolera quem não leva a sério.",
-                imagem: "emily.jpg"
+                imagem: "images/emily.jpg"
             }
         ],
         perguntas: [
@@ -818,33 +818,33 @@ const QUIZZES = [
         id: "acao",
         titulo: "Qual arquétipo de ação você é?",
         franquia: "💥 Jogos de Ação",
-        cartaz: "tlf.jpg",
+        cartaz: "images/tlf.jpg",
         nota: 7.0,
         personagens: [
             {
                 nome: "O Líder",
                 descricao: "Decidido e forte, você assume o comando naturalmente e inspira quem está ao redor.",
-                imagem: "lider.jpg"
+                imagem: "images/lider.jpg"
             },
             {
                 nome: "O Estrategista",
                 descricao: "Calmo e inteligente, você pensa dez passos à frente e raramente age por impulso.",
-                imagem: "estrategista.jpg"
+                imagem: "images/estrategista.jpg"
             },
             {
                 nome: "O Impulsivo",
                 descricao: "Emocional e rápido, você age pelo instinto e muitas vezes chega primeiro quando outros ainda pensam.",
-                imagem: "impulsivo.jpg"
+                imagem: "images/impulsivo.jpg"
             },
             {
                 nome: "O Engraçado",
                 descricao: "Leve e social, você une o grupo com humor e tem uma inteligência emocional que poucos percebem.",
-                imagem: "engracado.jpg"
+                imagem: "images/engracado.jpg"
             },
             {
                 nome: "O Misterioso",
                 descricao: "Fechado e observador, você vê tudo mas revela pouco — e isso te dá uma vantagem enorme.",
-                imagem: "misterioso.jpg"
+                imagem: "images/misterioso.jpg"
             }
         ],
         perguntas: [
@@ -912,7 +912,7 @@ const QUIZZES = [
 
     franquia: "🌊 The Summer I Turned Pretty",
 
-    cartaz: "tsitp.jpg",
+    cartaz: "images/tsitp.jpg",
 
     nota: 8.9,
 
@@ -920,25 +920,25 @@ const QUIZZES = [
         {
             nome: "Belly",
             descricao: "Romântica e sonhadora, você vive tudo intensamente e está sempre tentando descobrir quem realmente é.",
-            imagem: "belly.jpg"
+            imagem: "images/belly.jpg"
         },
 
         {
             nome: "Conrad",
             descricao: "Reservado e intenso, você sente muito mais do que demonstra e protege quem ama.",
-            imagem: "conrad.jpg"
+            imagem: "images/conrad.jpg"
         },
 
         {
             nome: "Jeremiah",
             descricao: "Carismático e divertido, você ilumina qualquer ambiente e valoriza as pessoas ao seu redor.",
-            imagem: "jeremiah.jpg"
+            imagem: "images/jeremiah.jpg"
         },
 
         {
             nome: "Taylor",
             descricao: "Confiante e sincera, você fala o que pensa e apoia seus amigos acima de tudo.",
-            imagem: "taylor.jpg"
+            imagem: "images/taylor.jpg"
         }
     ],
 
@@ -971,7 +971,7 @@ const QUIZZES = [
 
     franquia: "🩸 The Vampire Diaries",
 
-    cartaz: "tvd.jpg",
+    cartaz: "images/tvd.jpg",
 
     nota: 8.8,
 
@@ -981,7 +981,7 @@ const QUIZZES = [
 
             descricao: "Sarcástico e intenso, você esconde seus sentimentos atrás de ironia e age pelo coração, mesmo fingindo o contrário.",
 
-            imagem: "damon.jpg"
+            imagem: "images/damon.jpg"
         },
 
         {
@@ -989,7 +989,7 @@ const QUIZZES = [
 
             descricao: "Leal e sensível, você tenta fazer a coisa certa e coloca as pessoas que ama acima de si mesmo.",
 
-            imagem: "stefan.jpg"
+            imagem: "images/stefan.jpg"
         }
     ],
 
@@ -1103,7 +1103,7 @@ const QUIZZES = [
 
     franquia: "🌞 Outer Banks",
 
-    cartaz: "outerbanks.jpg",
+    cartaz: "images/outerbanks.jpg",
 
     nota: 8.4,
 
@@ -1113,7 +1113,7 @@ const QUIZZES = [
 
             descricao: "Aventureiro e leal, você faz de tudo pelos amigos e nunca desiste de uma missão.",
 
-            imagem: "johnb.jpg"
+            imagem: "images/johnb.jpg"
         },
 
         {
@@ -1121,7 +1121,7 @@ const QUIZZES = [
 
             descricao: "Corajosa e romântica, você segue seu coração e enfrenta qualquer obstáculo.",
 
-            imagem: "sarah.jpg"
+            imagem: "images/sarah.jpg"
         },
 
         {
@@ -1129,7 +1129,7 @@ const QUIZZES = [
 
             descricao: "Engraçado e rebelde, você vive intensamente e faria qualquer coisa por quem ama.",
 
-            imagem: "jj.jpg"
+            imagem: "images/jj.jpg"
         },
 
         {
@@ -1137,7 +1137,7 @@ const QUIZZES = [
 
             descricao: "Sincera e independente, você luta pelo que acredita e não se deixa influenciar.",
 
-            imagem: "kiara.jpg"
+            imagem: "images/kiara.jpg"
         },
 
         {
@@ -1145,7 +1145,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e responsável, você pensa antes de agir e está sempre ajudando os outros.",
 
-            imagem: "pope.jpg"
+            imagem: "images/pope.jpg"
         }
     ],
 
@@ -1349,7 +1349,7 @@ const QUIZZES = [
 
     franquia: "✨ Euphoria",
 
-    cartaz: "euphoria.jpg",
+    cartaz: "images/euphoria.jpg",
 
     nota: 6.9,
 
@@ -1359,7 +1359,7 @@ const QUIZZES = [
 
             descricao: "Intensa e sensível, você sente tudo profundamente e vive em constante busca por entender a si mesma.",
 
-            imagem: "rue.jpg"
+            imagem: "images/rue.jpg"
         },
 
         {
@@ -1367,7 +1367,7 @@ const QUIZZES = [
 
             descricao: "Criativa e sonhadora, você busca liberdade para ser quem realmente é.",
 
-            imagem: "jules.jpg"
+            imagem: "images/jules.jpg"
         },
 
         {
@@ -1375,7 +1375,7 @@ const QUIZZES = [
 
             descricao: "Confiante e marcante, você sabe seu valor e não aceita menos do que merece.",
 
-            imagem: "maddy.jpg"
+            imagem: "images/maddy.jpg"
         },
 
         {
@@ -1383,7 +1383,7 @@ const QUIZZES = [
 
             descricao: "Romântica e emocional, você ama intensamente e deseja ser amada da mesma forma.",
 
-            imagem: "cassie.jpg"
+            imagem: "images/cassie.jpg"
         },
 
         {
@@ -1391,7 +1391,7 @@ const QUIZZES = [
 
             descricao: "Observadora e inteligente, você prefere analisar tudo antes de agir e entende as pessoas como ninguém.",
 
-            imagem: "lexi.jpg"
+            imagem: "images/lexi.jpg"
         }
     ],
 
@@ -1600,7 +1600,7 @@ const QUIZZES = [
 
     franquia: "🏀 One Tree Hill",
 
-    cartaz: "oth.jpg",
+    cartaz: "images/oth.jpg",
 
     nota: 8.9,
 
@@ -1610,7 +1610,7 @@ const QUIZZES = [
 
             descricao: "Sensível e leal, você pensa muito antes de agir e sempre tenta fazer a coisa certa.",
 
-            imagem: "lucas.jpg"
+            imagem: "images/lucas.jpg"
         },
 
         {
@@ -1618,7 +1618,7 @@ const QUIZZES = [
 
             descricao: "Confiante e determinado, você amadureceu com os erros e protege quem ama acima de tudo.",
 
-            imagem: "nathan.jpg"
+            imagem: "images/nathan.jpg"
         },
 
         {
@@ -1626,7 +1626,7 @@ const QUIZZES = [
 
             descricao: "Carismática e divertida, você parece forte por fora, mas tem um coração enorme.",
 
-            imagem: "brooke.jpg"
+            imagem: "images/brooke.jpg"
         },
 
         {
@@ -1634,7 +1634,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e equilibrada, você valoriza amizade, amor e nunca abandona seus princípios.",
 
-            imagem: "haley.jpg"
+            imagem: "images/haley.jpg"
         },
 
         {
@@ -1642,7 +1642,7 @@ const QUIZZES = [
 
             descricao: "Artística e intensa, você sente tudo profundamente e transforma dor em força.",
 
-            imagem: "peyton.jpg"
+            imagem: "images/peyton.jpg"
         }
     ],
 
@@ -1851,7 +1851,7 @@ const QUIZZES = [
 
     franquia: "📚 You",
 
-    cartaz: "you.jpg",
+    cartaz: "images/you.jpg",
 
     nota: 8.1,
 
@@ -1861,7 +1861,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e observador, você presta atenção em cada detalhe e faria tudo para proteger quem ama.",
 
-            imagem: "joe.jpg"
+            imagem: "images/joe.jpg"
         },
 
         {
@@ -1869,7 +1869,7 @@ const QUIZZES = [
 
             descricao: "Apaixonada e intensa, você vive as emoções no máximo e faz de tudo pelas pessoas importantes.",
 
-            imagem: "love.jpg"
+            imagem: "images/love.jpg"
         },
 
         {
@@ -1877,7 +1877,7 @@ const QUIZZES = [
 
             descricao: "Reservada e independente, você prefere demonstrar amor com atitudes e valoriza sua liberdade.",
 
-            imagem: "kate.jpg"
+            imagem: "images/kate.jpg"
         },
 
         {
@@ -1885,7 +1885,7 @@ const QUIZZES = [
 
             descricao: "Confiante e sofisticada, você gosta de estar no controle e protege ferozmente quem considera seu.",
 
-            imagem: "peach.jpg"
+            imagem: "images/peach.jpg"
         }
     ],
 
@@ -2064,7 +2064,7 @@ const QUIZZES = [
 
     franquia: "🍒 Riverdale",
 
-    cartaz: "riverdale.jpg",
+    cartaz: "images/riverdale.jpg",
 
     nota: 7.7,
 
@@ -2074,7 +2074,7 @@ const QUIZZES = [
 
             descricao: "Corajoso e leal, você protege quem ama e sempre tenta fazer a coisa certa.",
 
-            imagem: "archie.jpg"
+            imagem: "images/archie.jpg"
         },
 
         {
@@ -2082,7 +2082,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e determinada, você é curiosa, observadora e nunca desiste de descobrir a verdade.",
 
-            imagem: "betty.jpg"
+            imagem: "images/betty.jpg"
         },
 
         {
@@ -2090,7 +2090,7 @@ const QUIZZES = [
 
             descricao: "Confiante e sofisticada, você gosta de estar no controle e sabe exatamente o que quer.",
 
-            imagem: "veronica.jpg"
+            imagem: "images/veronica.jpg"
         },
 
         {
@@ -2098,7 +2098,7 @@ const QUIZZES = [
 
             descricao: "Criativo e reservado, você prefere observar tudo ao seu redor e tem um jeito único de ver o mundo.",
 
-            imagem: "jughead.jpg"
+            imagem: "images/jughead.jpg"
         }
     ],
 
@@ -2267,3 +2267,6 @@ const QUIZZES = [
     ]
 }
 ];
+
+
+
