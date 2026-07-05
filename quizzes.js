@@ -24,22 +24,22 @@ const QUIZZES = [
             {
                 nome: "Harry Potter",
                 descricao: "Corajoso e impulsivo, você age pelo coração e nunca abandona quem ama, mesmo diante do perigo.",
-                imagem: "images/harry.jpg"
+                imagem: "harry.jpg"
             },
             {
                 nome: "Hermione Granger",
                 descricao: "Inteligente e lógica, você resolve problemas com raciocínio e se prepara para tudo com antecedência.",
-                imagem: "images/hermione.jpg"
+                imagem: "hermione.jpg"
             },
             {
                 nome: "Ron Weasley",
                 descricao: "Engraçado e leal, você alivia a tensão com humor mas carrega inseguranças que subestimam seu valor.",
-                imagem: "images/ron.jpg"
+                imagem: "ron.jpg"
             },
             {
                 nome: "Draco Malfoy",
                 descricao: "Orgulhoso e complexo, você tem uma postura fria, mas esconde conflitos internos profundos.",
-                imagem: "images/draco.jpg"
+                imagem: "draco.jpg"
             }
         ],
         perguntas: [
@@ -104,27 +104,27 @@ const QUIZZES = [
             {
                 nome: "Tony Stark",
                 descricao: "Egocêntrico e brilhante, você resolve tudo com inteligência e um sarcasmo afiado.",
-                imagem: "images/tony.jpg"
+                imagem: "tony.jpg"
             },
             {
                 nome: "Steve Rogers",
                 descricao: "Honrado e disciplinado, você coloca o dever acima de tudo e nunca desiste do que é certo.",
-                imagem: "images/steve.jpg"
+                imagem: "steve.jpg"
             },
             {
                 nome: "Thor",
                 descricao: "Impulsivo e emocional, você age pela força e sente tudo na intensidade máxima.",
-                imagem: "images/thor.jpg"
+                imagem: "thor.jpg"
             },
             {
                 nome: "Natasha Romanoff",
                 descricao: "Fria e estratégica, você observa antes de agir e raramente mostra o que sente.",
-                imagem: "images/natasha.jpg"
+                imagem: "natasha.jpg"
             },
             {
                 nome: "Loki",
                 descricao: "Manipulador e carismático, você usa as palavras como armas e sempre tem um plano B.",
-                imagem: "images/loki.jpg"
+                imagem: "loki.jpg"
             }
         ],
         perguntas: [
@@ -194,22 +194,22 @@ const QUIZZES = [
             {
                 nome: "Peter Parker",
                 descricao: "Responsável e ansioso, você carrega o peso do mundo nos ombros e ainda assim nunca desiste.",
-                imagem: "images/peter.jpg"
+                imagem: "peter.jpg"
             },
             {
                 nome: "MJ",
                 descricao: "Irônica e independente, você tem opiniões fortes e não precisa da aprovação de ninguém.",
-                imagem: "images/mj.jpg"
+                imagem: "mj.jpg"
             },
             {
                 nome: "Gwen Stacy",
                 descricao: "Inteligente e focada, você é determinada, brilhante e sabe exatamente onde quer chegar.",
-                imagem: "images/gwen.jpg"
+                imagem: "gwen.jpg"
             },
             {
                 nome: "Harry Osborn",
                 descricao: "Instável e emocional, você sente tudo com intensidade e luta contra conflitos que vêm de dentro.",
-                imagem: "images/harry-o.jpg"
+                imagem: "harry-o.jpg"
             }
         ],
         perguntas: [
@@ -274,22 +274,22 @@ const QUIZZES = [
             {
                 nome: "Katniss Everdeen",
                 descricao: "Protetora e fechada, você faz de tudo por quem ama mas tem dificuldade em confiar no mundo.",
-                imagem: "images/katniss.jpg"
+                imagem: "katniss.jpg"
             },
             {
                 nome: "Peeta Mellark",
                 descricao: "Gentil e emocional, você enxerga o bem nas pessoas e usa palavras para conectar ao invés de dividir.",
-                imagem: "images/peeta.jpg"
+                imagem: "peeta.jpg"
             },
             {
                 nome: "Gale Hawthorne",
                 descricao: "Intenso e rebelde, você questiona o sistema e está disposto a tudo pela causa em que acredita.",
-                imagem: "images/gale.jpg"
+                imagem: "gale.jpg"
             },
             {
                 nome: "Effie Trinket",
                 descricao: "Exagerada e organizada, você tem um jeito único de ver o mundo e leva a sério cada detalhe.",
-                imagem: "images/effie.jpg"
+                imagem: "effie.jpg"
             }
         ],
         perguntas: [
@@ -315,7 +315,7 @@ const QUIZZES = [
                 texto: "Numa situação de crise você...",
                 alternativas: [
                     { texto: "Ajo instintivamente para sobreviver",                pontos: [3,0,0,0] },
-                    { texto: "Tento manter a calma e negociar",                    pontos: [0,3,0,0] },
+                    { texto: "Tento manter a calma e negociar",                     pontos: [0,3,0,0] },
                     { texto: "Enfrento de frente sem recuar",                      pontos: [0,0,3,0] },
                     { texto: "Sigo o plano à risca",                               pontos: [0,0,0,3] }
                 ]
@@ -354,17 +354,17 @@ const QUIZZES = [
             {
                 nome: "Bella Swan",
                 descricao: "Introvertida e emocional, você sente as coisas com profundidade e busca pertencer a algo maior.",
-                imagem: "images/bella.jpg"
+                imagem: "bella.jpg"
             },
             {
                 nome: "Edward Cullen",
                 descricao: "Controlador e intenso, você ama com obsessão e carrega o peso de séculos de autocontrole.",
-                imagem: "images/edward.jpg"
+                imagem: "edward.jpg"
             },
             {
                 nome: "Jacob Black",
                 descricao: "Direto e caloroso, você é fiel, protetor e nunca esconde o que sente.",
-                imagem: "images/jacob.jpg"
+                imagem: "jacob.jpg"
             }
         ],
         perguntas: [
@@ -424,22 +424,22 @@ const QUIZZES = [
             {
                 nome: "Troy Bolton",
                 descricao: "Confuso mas popular, você equilibra expectativas alheias com o que realmente quer ser.",
-                imagem: "images/troy.jpg"
+                imagem: "troy.jpg"
             },
             {
                 nome: "Gabriella Montez",
                 descricao: "Calma e inteligente, você cresce na sombra até encontrar coragem para brilhar.",
-                imagem: "images/gabriella.jpg"
+                imagem: "gabriella.jpg"
             },
             {
                 nome: "Sharpay Evans",
                 descricao: "Ambiciosa e teatral, você não aceita segundo lugar e sabe exatamente o que quer.",
-                imagem: "images/sharpay.jpg"
+                imagem: "sharpay.jpg"
             },
             {
                 nome: "Ryan Evans",
                 descricao: "Criativo e contido, você tem talento de sobra mas prefere brilhar nos bastidores.",
-                imagem: "images/ryan.jpg"
+                imagem: "ryan.jpg"
             }
         ],
         perguntas: [
@@ -504,27 +504,27 @@ const QUIZZES = [
             {
                 nome: "Alegria",
                 descricao: "Otimista e energética, você encontra o bom em tudo e irradia positividade por onde passa.",
-                imagem: "images/alegria.jpg"
+                imagem: "alegria.jpg"
             },
             {
                 nome: "Tristeza",
                 descricao: "Sensível e empática, você sente tudo fundo e tem um dom especial para acolher os outros.",
-                imagem: "images/tristeza.jpg"
+                imagem: "tristeza.jpg"
             },
             {
                 nome: "Raiva",
                 descricao: "Explosivo e apaixonado, você tem senso de justiça afiadíssimo e não aceita desrespeito.",
-                imagem: "images/raiva.jpg"
+                imagem: "raiva.jpg"
             },
             {
                 nome: "Medo",
                 descricao: "Ansioso e cauteloso, você antecipa tudo e raramente age sem calcular os riscos antes.",
-                imagem: "images/medo.jpg"
+                imagem: "medo.jpg"
             },
             {
                 nome: "Nojinho",
                 descricao: "Crítico e seletivo, você tem padrões altos e uma visão de mundo que poucos conseguem acompanhar.",
-                imagem: "images/nojinho.jpg"
+                imagem: "nojinho.jpg"
             }
         ],
         perguntas: [
@@ -572,7 +572,7 @@ const QUIZZES = [
                 texto: "O que você não suporta?",
                 alternativas: [
                     { texto: "Negatividade sem necessidade",                       pontos: [3,0,0,0,0] },
-                    { texto: "Indiferença com quem está sofrendo",                 pontos: [0,3,0,0,0] },
+                    { texto: "Indiferença com quem está sofrendo",                pontos: [0,3,0,0,0] },
                     { texto: "Injustiça e falta de respeito",                      pontos: [0,0,3,0,0] },
                     { texto: "Imprevistos e falta de controle",                    pontos: [0,0,0,3,0] },
                     { texto: "Mediocridade e falta de padrão",                     pontos: [0,0,0,0,3] }
@@ -594,22 +594,22 @@ const QUIZZES = [
             {
                 nome: "Jon Snow",
                 descricao: "Honorável e reservado, você segue o dever acima de tudo e carrega um peso que raramente divide.",
-                imagem: "images/jon.jpg"
+                imagem: "jon.jpg"
             },
             {
                 nome: "Daenerys Targaryen",
                 descricao: "Forte e idealista, você tem uma visão de mundo clara e está disposta a queimar tudo para realizá-la.",
-                imagem: "images/daenerys.jpg"
+                imagem: "daenerys.jpg"
             },
             {
                 nome: "Tyrion Lannister",
                 descricao: "Inteligente e sarcástico, você usa as palavras como arma e enxerga o que outros ignoram.",
-                imagem: "images/tyrion.jpg"
+                imagem: "tyrion.jpg"
             },
             {
                 nome: "Arya Stark",
                 descricao: "Fria e independente, você traça seu próprio caminho e não tem medo de fazer o que precisa ser feito.",
-                imagem: "images/arya.jpg"
+                imagem: "arya.jpg"
             }
         ],
         perguntas: [
@@ -674,22 +674,22 @@ const QUIZZES = [
             {
                 nome: "Eleven",
                 descricao: "Silenciosa e poderosa, você guarda um universo dentro de si e age quando as palavras não bastam.",
-                imagem: "images/eleven.jpg"
+                imagem: "eleven.jpg"
             },
             {
                 nome: "Mike Wheeler",
                 descricao: "Leal e emotivo, você coloca os amigos acima de tudo e sente cada perda como se fosse sua.",
-                imagem: "images/mike.jpg"
+                imagem: "mike.jpg"
             },
             {
                 nome: "Dustin Henderson",
                 descricao: "Engraçado e inteligente, você usa o humor para conectar pessoas e resolve problemas de formas únicas.",
-                imagem: "images/dustin.jpg"
+                imagem: "dustin.jpg"
             },
             {
                 nome: "Max Mayfield",
                 descricao: "Independente e forte, você não precisa de aprovação e enfrenta traumas com coragem real.",
-                imagem: "images/max.jpg"
+                imagem: "max.jpg"
             }
         ],
         perguntas: [
@@ -754,17 +754,17 @@ const QUIZZES = [
             {
                 nome: "Miranda Priestly",
                 descricao: "Exigente e fria, você tem padrões impossíveis, mas por trás da dureza existe uma visão que poucos entendem.",
-                imagem: "images/miranda.jpg"
+                imagem: "miranda.jpg"
             },
             {
                 nome: "Andy Sachs",
                 descricao: "Insegura mas evolutiva, você chega sem saber quem é e sai com uma identidade que construiu sozinha.",
-                imagem: "images/andy.jpg"
+                imagem: "andy.jpg"
             },
             {
                 nome: "Emily",
                 descricao: "Ambiciosa e competitiva, você trabalha mais do que todos e não tolera quem não leva a sério.",
-                imagem: "images/emily.jpg"
+                imagem: "emily.jpg"
             }
         ],
         perguntas: [
@@ -824,27 +824,27 @@ const QUIZZES = [
             {
                 nome: "O Líder",
                 descricao: "Decidido e forte, você assume o comando naturalmente e inspira quem está ao redor.",
-                imagem: "images/lider.jpg"
+                imagem: "lider.jpg"
             },
             {
                 nome: "O Estrategista",
                 descricao: "Calmo e inteligente, você pensa dez passos à frente e raramente age por impulso.",
-                imagem: "images/estrategista.jpg"
+                imagem: "estrategista.jpg"
             },
             {
                 nome: "O Impulsivo",
                 descricao: "Emocional e rápido, você age pelo instinto e muitas vezes chega primeiro quando outros ainda pensam.",
-                imagem: "images/impulsivo.jpg"
+                imagem: "impulsivo.jpg"
             },
             {
                 nome: "O Engraçado",
                 descricao: "Leve e social, você une o grupo com humor e tem uma inteligência emocional que poucos percebem.",
-                imagem: "images/engracado.jpg"
+                imagem: "engracado.jpg"
             },
             {
                 nome: "O Misterioso",
                 descricao: "Fechado e observador, você vê tudo mas revela pouco — e isso te dá uma vantagem enorme.",
-                imagem: "images/misterioso.jpg"
+                imagem: "misterioso.jpg"
             }
         ],
         perguntas: [
@@ -920,25 +920,25 @@ const QUIZZES = [
         {
             nome: "Belly",
             descricao: "Romântica e sonhadora, você vive tudo intensamente e está sempre tentando descobrir quem realmente é.",
-            imagem: "images/belly.jpg"
+            imagem: "belly.jpg"
         },
 
         {
             nome: "Conrad",
             descricao: "Reservado e intenso, você sente muito mais do que demonstra e protege quem ama.",
-            imagem: "images/conrad.jpg"
+            imagem: "conrad.jpg"
         },
 
         {
             nome: "Jeremiah",
             descricao: "Carismático e divertido, você ilumina qualquer ambiente e valoriza as pessoas ao seu redor.",
-            imagem: "images/jeremiah.jpg"
+            imagem: "jeremiah.jpg"
         },
 
         {
             nome: "Taylor",
             descricao: "Confiante e sincera, você fala o que pensa e apoia seus amigos acima de tudo.",
-            imagem: "images/taylor.jpg"
+            imagem: "taylor.jpg"
         }
     ],
 
@@ -981,7 +981,7 @@ const QUIZZES = [
 
             descricao: "Sarcástico e intenso, você esconde seus sentimentos atrás de ironia e age pelo coração, mesmo fingindo o contrário.",
 
-            imagem: "images/damon.jpg"
+            imagem: "damon.jpg"
         },
 
         {
@@ -989,7 +989,7 @@ const QUIZZES = [
 
             descricao: "Leal e sensível, você tenta fazer a coisa certa e coloca as pessoas que ama acima de si mesmo.",
 
-            imagem: "images/stefan.jpg"
+            imagem: "stefan.jpg"
         }
     ],
 
@@ -1113,7 +1113,7 @@ const QUIZZES = [
 
             descricao: "Aventureiro e leal, você faz de tudo pelos amigos e nunca desiste de uma missão.",
 
-            imagem: "images/johnb.jpg"
+            imagem: "johnb.jpg"
         },
 
         {
@@ -1121,7 +1121,7 @@ const QUIZZES = [
 
             descricao: "Corajosa e romântica, você segue seu coração e enfrenta qualquer obstáculo.",
 
-            imagem: "images/sarah.jpg"
+            imagem: "sarah.jpg"
         },
 
         {
@@ -1129,7 +1129,7 @@ const QUIZZES = [
 
             descricao: "Engraçado e rebelde, você vive intensamente e faria qualquer coisa por quem ama.",
 
-            imagem: "images/jj.jpg"
+            imagem: "jj.jpg"
         },
 
         {
@@ -1137,7 +1137,7 @@ const QUIZZES = [
 
             descricao: "Sincera e independente, você luta pelo que acredita e não se deixa influenciar.",
 
-            imagem: "images/kiara.jpg"
+            imagem: "kiara.jpg"
         },
 
         {
@@ -1145,7 +1145,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e responsável, você pensa antes de agir e está sempre ajudando os outros.",
 
-            imagem: "images/pope.jpg"
+            imagem: "pope.jpg"
         }
     ],
 
@@ -1359,7 +1359,7 @@ const QUIZZES = [
 
             descricao: "Intensa e sensível, você sente tudo profundamente e vive em constante busca por entender a si mesma.",
 
-            imagem: "images/rue.jpg"
+            imagem: "rue.jpg"
         },
 
         {
@@ -1367,7 +1367,7 @@ const QUIZZES = [
 
             descricao: "Criativa e sonhadora, você busca liberdade para ser quem realmente é.",
 
-            imagem: "images/jules.jpg"
+            imagem: "jules.jpg"
         },
 
         {
@@ -1375,7 +1375,7 @@ const QUIZZES = [
 
             descricao: "Confiante e marcante, você sabe seu valor e não aceita menos do que merece.",
 
-            imagem: "images/maddy.jpg"
+            imagem: "maddy.jpg"
         },
 
         {
@@ -1383,7 +1383,7 @@ const QUIZZES = [
 
             descricao: "Romântica e emocional, você ama intensamente e deseja ser amada da mesma forma.",
 
-            imagem: "images/cassie.jpg"
+            imagem: "cassie.jpg"
         },
 
         {
@@ -1391,7 +1391,7 @@ const QUIZZES = [
 
             descricao: "Observadora e inteligente, você prefere analisar tudo antes de agir e entende as pessoas como ninguém.",
 
-            imagem: "images/lexi.jpg"
+            imagem: "lexi.jpg"
         }
     ],
 
@@ -1610,7 +1610,7 @@ const QUIZZES = [
 
             descricao: "Sensível e leal, você pensa muito antes de agir e sempre tenta fazer a coisa certa.",
 
-            imagem: "images/lucas.jpg"
+            imagem: "lucas.jpg"
         },
 
         {
@@ -1618,7 +1618,7 @@ const QUIZZES = [
 
             descricao: "Confiante e determinado, você amadureceu com os erros e protege quem ama acima de tudo.",
 
-            imagem: "images/nathan.jpg"
+            imagem: "nathan.jpg"
         },
 
         {
@@ -1626,7 +1626,7 @@ const QUIZZES = [
 
             descricao: "Carismática e divertida, você parece forte por fora, mas tem um coração enorme.",
 
-            imagem: "images/brooke.jpg"
+            imagem: "brooke.jpg"
         },
 
         {
@@ -1634,7 +1634,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e equilibrada, você valoriza amizade, amor e nunca abandona seus princípios.",
 
-            imagem: "images/haley.jpg"
+            imagem: "haley.jpg"
         },
 
         {
@@ -1642,7 +1642,7 @@ const QUIZZES = [
 
             descricao: "Artística e intensa, você sente tudo profundamente e transforma dor em força.",
 
-            imagem: "images/peyton.jpg"
+            imagem: "peyton.jpg"
         }
     ],
 
@@ -1861,7 +1861,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e observador, você presta atenção em cada detalhe e faria tudo para proteger quem ama.",
 
-            imagem: "images/joe.jpg"
+            imagem: "joe.jpg"
         },
 
         {
@@ -1869,7 +1869,7 @@ const QUIZZES = [
 
             descricao: "Apaixonada e intensa, você vive as emoções no máximo e faz de tudo pelas pessoas importantes.",
 
-            imagem: "images/love.jpg"
+            imagem: "love.jpg"
         },
 
         {
@@ -1877,7 +1877,7 @@ const QUIZZES = [
 
             descricao: "Reservada e independente, você prefere demonstrar amor com atitudes e valoriza sua liberdade.",
 
-            imagem: "images/kate.jpg"
+            imagem: "kate.jpg"
         },
 
         {
@@ -1885,7 +1885,7 @@ const QUIZZES = [
 
             descricao: "Confiante e sofisticada, você gosta de estar no controle e protege ferozmente quem considera seu.",
 
-            imagem: "images/peach.jpg"
+            imagem: "peach.jpg"
         }
     ],
 
@@ -2074,7 +2074,7 @@ const QUIZZES = [
 
             descricao: "Corajoso e leal, você protege quem ama e sempre tenta fazer a coisa certa.",
 
-            imagem: "images/archie.jpg"
+            imagem: "archie.jpg"
         },
 
         {
@@ -2082,7 +2082,7 @@ const QUIZZES = [
 
             descricao: "Inteligente e determinada, você é curiosa, observadora e nunca desiste de descobrir a verdade.",
 
-            imagem: "images/betty.jpg"
+            imagem: "betty.jpg"
         },
 
         {
@@ -2090,7 +2090,7 @@ const QUIZZES = [
 
             descricao: "Confiante e sofisticada, você gosta de estar no controle e sabe exatamente o que quer.",
 
-            imagem: "images/veronica.jpg"
+            imagem: "veronica.jpg"
         },
 
         {
@@ -2098,7 +2098,7 @@ const QUIZZES = [
 
             descricao: "Criativo e reservado, você prefere observar tudo ao seu redor e tem um jeito único de ver o mundo.",
 
-            imagem: "images/jughead.jpg"
+            imagem: "jughead.jpg"
         }
     ],
 
@@ -2267,6 +2267,3 @@ const QUIZZES = [
     ]
 }
 ];
-
-
-
